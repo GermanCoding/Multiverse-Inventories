@@ -1,6 +1,8 @@
 package com.onarandombox.multiverseinventories.util;
 
 import com.onarandombox.multiverseinventories.api.PlayerStats;
+
+import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.event.inventory.InventoryType;
@@ -295,4 +297,58 @@ public class MockPlayerInventory implements PlayerInventory {
                 + ",\"armorContents\":" + makeMap(getArmorContents())
                 + "}";
     }
+
+	@Override
+	public Location getLocation() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ItemStack[] getStorageContents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setStorageContents(ItemStack[] arg0) throws IllegalArgumentException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ItemStack[] getExtraContents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ItemStack getItemInMainHand() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ItemStack getItemInOffHand() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setExtraContents(ItemStack[] arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setItemInMainHand(ItemStack arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setItemInOffHand(ItemStack arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 }

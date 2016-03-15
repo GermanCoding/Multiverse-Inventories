@@ -1,7 +1,10 @@
 package com.onarandombox.multiverseinventories.util;
 
 import com.onarandombox.multiverseinventories.api.PlayerStats;
+
 import org.bukkit.*;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.block.Block;
 import org.bukkit.conversations.Conversation;
 import org.bukkit.conversations.ConversationAbandonedEvent;
@@ -930,17 +933,14 @@ public class MockPlayer implements Player {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    @Override
     public Egg throwEgg() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    @Override
     public Snowball throwSnowball() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
-    @Override
     public Arrow shootArrow() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
@@ -1281,4 +1281,166 @@ public class MockPlayer implements Player {
     public boolean getCanPickupItems() {
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
+
+	@Override
+	public MainHand getMainHand() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public InventoryView openMerchant(Villager arg0, boolean arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Block> getLastTwoTargetBlocks(Set<Material> arg0, int arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Block> getLineOfSight(Set<Material> arg0, int arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Block getTargetBlock(Set<Material> arg0, int arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isGliding() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setGliding(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public AttributeInstance getAttribute(Attribute arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isGlowing() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setGlowing(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Entity getSpectatorTarget() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void resetTitle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sendTitle(String arg0, String arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSpectatorTarget(Entity arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void spawnParticle(Particle arg0, Location arg1, int arg2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void spawnParticle(Particle arg0, Location arg1, int arg2, T arg3) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void spawnParticle(Particle arg0, double arg1, double arg2, double arg3, int arg4) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void spawnParticle(Particle arg0, double arg1, double arg2, double arg3, int arg4, T arg5) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void spawnParticle(Particle arg0, Location arg1, int arg2, double arg3, double arg4, double arg5) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void spawnParticle(Particle arg0, Location arg1, int arg2, double arg3, double arg4, double arg5, T arg6) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void spawnParticle(Particle arg0, Location arg1, int arg2, double arg3, double arg4, double arg5, double arg6) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void spawnParticle(Particle arg0, double arg1, double arg2, double arg3, int arg4, double arg5, double arg6, double arg7) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void spawnParticle(Particle arg0, Location arg1, int arg2, double arg3, double arg4, double arg5, double arg6, T arg7) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void spawnParticle(Particle arg0, double arg1, double arg2, double arg3, int arg4, double arg5, double arg6, double arg7, T arg8) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void spawnParticle(Particle arg0, double arg1, double arg2, double arg3, int arg4, double arg5, double arg6, double arg7, double arg8) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void spawnParticle(Particle arg0, double arg1, double arg2, double arg3, int arg4, double arg5, double arg6, double arg7, double arg8, T arg9) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Spigot spigot() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
