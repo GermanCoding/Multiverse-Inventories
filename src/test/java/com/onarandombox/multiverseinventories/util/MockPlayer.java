@@ -1443,4 +1443,40 @@ public class MockPlayer implements Player {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public boolean hasAI() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isCollidable() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setAI(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setCollidable(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isInvulnerable() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setInvulnerable(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 }
