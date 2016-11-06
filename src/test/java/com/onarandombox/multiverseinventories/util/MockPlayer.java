@@ -1479,4 +1479,46 @@ public class MockPlayer implements Player {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public PotionEffect getPotionEffect(PotionEffectType arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean hasGravity() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isSilent() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setGravity(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSilent(boolean arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stopSound(Sound arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stopSound(String arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 }
