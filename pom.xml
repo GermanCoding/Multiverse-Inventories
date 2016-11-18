@@ -17,10 +17,6 @@
 			<url>http://repo.onarandombox.com/content/groups/public</url>
 		</repository>
 		<repository>
-			<id>Official Bukkit</id>
-			<url>http://repo.bukkit.org/content/repositories/public</url>
-		</repository>
-		<repository>
 			<id>Spigot</id>
 			<url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
 		</repository>
